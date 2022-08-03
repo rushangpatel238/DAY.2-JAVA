@@ -1,0 +1,24 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+    <title> sum of two numbers</title>
+    </head>
+    <body bgcolor="aqua">
+
+        <script>
+            function add()
+            {
+                var numOne, numTwo,sum;
+                newOne = parseInt(document.getElementById("first").value);
+                numTwo =parseInt (document.getElementById("second").value);
+                sum = numOne+numTwo;
+                document.getElementById("answer").value =sum;
+            }
+            </script>
+            <p> Enter the first number:<input id="first"></p>
+            <p> Enter the second number:<input id="second"></p>
+            <button oneclick ="add()">Add</button>
+            <p>sum = <input id="answer"></p>
+
+             </body>
+    </html>
